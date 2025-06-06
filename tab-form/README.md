@@ -1,12 +1,18 @@
-# React + Vite
+## Tabs Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Implement a **Tabs Component** that allows users to switch between different tab content sections. Each tab should be clickable, and clicking on a tab should update the displayed content accordingly.
 
-Currently, two official plugins are available:
+### Requirements
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. The component should accept a list of tabs as props.
+2. Each tab should have a `title` and `content`.
+3. The first tab should be selected by default.
+4. Clicking on a tab should update the displayed content.
+5. The component should be reusable and scalable.
 
-## Expanding the ESLint configuration
+### Constraints
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Constraint 1**: The `tabs` prop is an array of objects, each containing `title` and `content`.
+- **Constraint 2**: Handle an empty `tabs` array gracefully by displaying "No tabs available".
+- **Constraint 3**: Handle cases where `title` is missing in a tab by displaying "Tab 1", "Tab 2", according to the tab number.
+- **Constraint 4**: Handle cases where `content` is missing in a tab by displaying "No content available".
