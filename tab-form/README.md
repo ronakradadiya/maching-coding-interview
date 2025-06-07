@@ -21,6 +21,9 @@ A **Tabs Component** that allows users to switch between different tab content s
 - **Constraint 3**: Handle cases where `title` is missing in a tab by displaying `"Tab 1"`, `"Tab 2"`, etc., according to the tab number.
 - **Constraint 4**: Handle cases where `content` is missing in a tab by displaying `"No content available"`.
 
+## Companies asked
+- Meta, Airbnb, Swiggy, Meesho
+
 ---
 
 ## Getting Started
@@ -36,3 +39,7 @@ pnpm i
 ```bash
 pnpm run
 ```
+
+Ask relevant questions
+1. What all input types do I need to support ?
+2. Do I need to add validations ?
