@@ -1,0 +1,45 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  width: 210px;
+  flex-wrap: wrap;
+  border: 1px solid white;
+  padding: 5px
+}
+
+.product-img {
+  width: 200px;
+  height: 200px;
+}
+
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.page-number {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.pagination-container {
+  padding: 20px;
+}
+
+.active-page {
+  background-color: grey;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
