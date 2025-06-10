@@ -1,12 +1,30 @@
-# React + Vite
+**Create a Progress Bar Component** in React that visually represents a single progress value. Users should be able to increment or decrement progress using buttons. Make sure to use inline CSS.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+### Requirements
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Display one progress bar.
+2. The bar should reflect a numeric progress (0–100%).
+3. Include buttons labeled '+10%' and '-10%' to increase or decrease the bar’s value.
+4. Prevent values from going below 0% or above 100%.
+5. Change bar color based on value (e.g., red, orange, green).
+6. Color is selected based on thresholds:
 
-## Expanding the ESLint configuration
+   * Red if less than 40%
+   * Orange if between 40–79%
+   * Green if 80% or more
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+### Constraints & Edge Cases
+
+* **Constraint 1**: Progress must stay between 0 and 100.
+* **Constraint 2**: The background color-changing div must have an id="testBgColor" for testing the background color of progress bar.
+* **Edge Case 1**: If decrementing would take a value below 0, clamp it to 0.
+* **Edge Case 2**: If incrementing would take a value above 100, clamp it to 100.
+
+---
+
+## Companies asked
+- Google, Microsoft, Uber, Facebook, Amazon

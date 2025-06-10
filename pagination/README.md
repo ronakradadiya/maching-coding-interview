@@ -33,6 +33,9 @@ A React component called **Pagination** that displays a list of products fetched
   - `FiChevronsLeft` for the left arrow icon  
   - `FiChevronsRight` for the right arrow icon (optional)
 
+## Companies asked
+- Swiggy, Flipkart
+
 
 Ask relevant questions
 1. From where I will get data ?
