@@ -1,0 +1,32 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.container {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.icon-btn {
+  cursor: pointer;
+}
+
+.file-actions {
+  margin-left: 10px;
+}
+
+.file-actions > span {
+  margin-left: 4px;
+}
+
+.node-input-form-action-button {
+  display: flex;
+  align-items: center;
+  gap: 4px
+}
+
+.node-input {
+  margin-bottom: 20px;
+}
