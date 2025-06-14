@@ -1,3 +1,5 @@
+## Progress bar component - EASY
+
 **Create a Progress Bar Component** in React that visually represents a single progress value. Users should be able to increment or decrement progress using buttons. Make sure to use inline CSS.
 
 ---

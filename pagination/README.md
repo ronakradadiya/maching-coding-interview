@@ -1,4 +1,4 @@
-# Pagination Component
+# Pagination Component - HARD
 
 A React component called **Pagination** that displays a list of products fetched from a remote API. The products are displayed in a paginated format with 10 items per page, including navigational buttons for moving to **previous** and **next** pages.
 

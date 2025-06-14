@@ -1,4 +1,4 @@
-# Autocomplete Component
+# Autocomplete Component - HARD
 
 ## Functionalities implemented
 

@@ -1,3 +1,5 @@
+## File Explorer - HARD
+
 This project implements a dynamic and recursive file explorer component in React. It mimics the behavior of a typical file system viewer, where folders can be expanded or collapsed, and users can add or remove files and folders at any level of the hierarchy.
 
 ### Key Features:

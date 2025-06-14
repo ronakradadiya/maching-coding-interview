@@ -1,3 +1,5 @@
+## OTP Input Component - HARD
+
 ### Create a 4-digit OTP (One-Time Password) input component using React.
 
 The OTP should be entered one digit per input box. The focus should auto-move as the user types or deletes, and the component should support pasting a full OTP. It should also reject any non-numeric characters.

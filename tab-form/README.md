@@ -1,4 +1,4 @@
-# Tabs Component
+# Tabs Component - MEDIUM
 
 A **Tabs Component** that allows users to switch between different tab content sections. Each tab is clickable, and clicking on a tab updates the displayed content accordingly.
 
